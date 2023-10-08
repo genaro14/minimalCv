@@ -5,6 +5,72 @@
   box-sizing: border-box;
   transition: 0.35s ease;
 }
+.lang-bar{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+.white-border {
+  margin-left: 3px;
+  border: 2px solid #FFF;
+}
+.floater {
+margin-right: 20px;
+}
+.reset-button {
+  /* Reset various CSS properties to their default values */
+  all: initial;
+}
+
+/* Language Selector */
+.lang-bar .translate {
+  display: none;
+}
+.lang-bar ul li.translate.active {
+  display: flex;
+
+}
+.lang-bar ul li .permanent {
+  display: flex;
+}
+.rela-block.translate {
+  display: none;
+}
+.rela-block.translate.active {
+  display: block;
+}
+.rela-block .content-container .translate {
+  display: none;
+}
+.rela-block .content-container .translate.active {
+  display: block;
+}
+
+.lang-bar ul {
+  list-style-type: none;
+  margin-top: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+.lang-bar li {
+  float: left;
+}
+.lang-bar li a {
+  display: block;
+  color: #FFF;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.lang-bar li a:hover {
+  background-color: #111;
+}
 
 .rela-block {
   display: block;
@@ -47,14 +113,14 @@ body {
 }
 
 body:before {
-  content: "";
+  /* content: ""; */
   position: fixed;
   margin: 0;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.92);
+  /* background-color: rgba(255, 255, 255, 0.92); */
 }
 
 .caps {
