@@ -251,11 +251,12 @@ h3 {
   width: 100%;
   stroke: black;
   cursor: pointer;
+  
 }
 .logo .logo-text {
   position: absolute;
   top: 2%;
-  right: 35%;
+  right: 33%;
   cursor: pointer;
   font-family: "Montserrat";
   font-size: 55px;
@@ -288,6 +289,12 @@ h3 {
 .list-thing {
   padding-left: 25px;
   margin-bottom: 10px;
+}
+.list-thing-small {
+  padding-left: 25px;
+  margin-bottom: 10px;
+  font-size: 10;
+  color: grey;
 }
 
 .content-container {
